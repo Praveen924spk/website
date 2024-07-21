@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+}
+body{
+      background: linear-gradient(135deg, #ffffff, #fbc2eb, #e6a5b1);
+}
+img{
+    height: 250px;
+    width: 250px;
+
+}
+.resume{
+    font-size: 24px;
+}
+
+.cn{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+p{
+    font-size: 20px;
+}
+
+.name{
+    padding-left:20px;
+    align-content: center;
+}
+p{
+    padding: 20px;
+}
+.projects{
+    padding: 20px;
+}
+.project1{
+    position: relative;
+   border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    }
+.project2{
+    position: relative;
+   border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.project3{
+    position: relative;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+.project4{
+    position: relative;
+    border: 2px solid #333;
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+h2{
+    margin-top: 5px;
+}
+.skill{
+    padding: 20px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    width: 400px; 
+    font-size: 20px;
+}
+.certificate{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.certificate{
+img {
+    width: 75%; 
+    height: auto; 
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover; 
+    border-radius: 15px;
+    border: 2px solid #ddd;
+}
+}
+
+.contact{
+    padding: 20px;
+    text-align: center;
+}
+.gmail{
+    img{
+    height:24px;
+    width: 24px;
+    margin-right: 8px;
+    
+    }
+
+}
+.call{
+    img{
+    height:30px;
+    width: 30px;
+    align-items: center;
+ }
+
+}
+.linkedin{
+    img{
+    height:30px;
+    width: 30px;
+    align-items: center;
+    }
+
+}
+
+
+
+
+
+
