@@ -2,7 +2,12 @@
     margin: 0%;
 }
 body{
-      background: linear-gradient(135deg, #ffffff, #fbc2eb, #e6a5b1);
+      background-image: url(cherry3.jpeg);
+      background-size: cover;
+      background-position:center center;
+      background-repeat: no-repeat;
+      
+
 }
 img{
     height: 250px;
@@ -24,6 +29,7 @@ p{
     font-size: 20px;
 }
 
+
 .name{
     padding-left:20px;
     align-content: center;
@@ -31,8 +37,29 @@ p{
 p{
     padding: 20px;
 }
+.resume-button {
+    background-color:white; 
+    border: none; 
+    color:black; 
+    padding: 15px; 
+    text-align: center; 
+    text-decoration: none; /
+    display: inline-block; /
+    font-size: 16px; 
+    margin: 20px; 
+    cursor: pointer; 
+    border-radius: 12px;
+    
+}
+a:hover{
+    cursor: pointer;
+    color:#ddd;
+    background-color: black;
+}
+    
 .projects{
     padding: 20px;
+
 }
 .project1{
     position: relative;
@@ -40,6 +67,7 @@ p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-sizing: border-box;
+    cursor: pointer;
     }
 .project2{
     position: relative;
@@ -47,6 +75,7 @@ p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-sizing: border-box;
+    cursor: pointer;
 
 }
 .project3{
@@ -55,6 +84,7 @@ p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .project4{
     position: relative;
@@ -63,9 +93,11 @@ p{
     text-align: center;
     box-sizing: border-box;
     margin-top: 2px;
+    cursor: pointer;
 }
 h2{
     margin-top: 5px;
+    
 }
 .skill{
     padding: 20px;
