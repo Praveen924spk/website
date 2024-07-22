@@ -129,14 +129,14 @@ img {
 
 .contact{
     padding: 20px;
-    text-align: center;
+    
 }
 .gmail{
     img{
     height:24px;
     width: 24px;
     margin-right: 8px;
-    
+   
     }
 
 }
@@ -144,7 +144,7 @@ img {
     img{
     height:30px;
     width: 30px;
-    align-items: center;
+   
  }
 
 }
@@ -152,7 +152,7 @@ img {
     img{
     height:30px;
     width: 30px;
-    align-items: center;
+   
     }
 
 }
