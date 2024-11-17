@@ -1,164 +1,138 @@
-*{
-    margin: 0%;
+* {
+  margin: 0%;
 }
-body{
-      background-image: url(cherry3.jpeg);
-      background-size: cover;
-      background-position:center center;
-      background-repeat: no-repeat;
-      
-
+body {
+  background-image: url(cherry3.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-img{
-    height: 250px;
-    width: 250px;
-    
-
+img {
+  height: 250px;
+  width: 250px;
 }
-.resume{
-    font-size: 24px;
+.resume {
+  font-size: 24px;
 }
 
-.cn{
-    display: flex;
-    padding-left: 20px;
-    align-items: center;
-    margin-top: 20px;
+.cn {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  margin-top: 20px;
 }
-p{
-    font-size: 20px;
+p {
+  font-size: 20px;
 }
 
-
-.name{
-    padding-left:20px;
-    align-content: center;
+.name {
+  padding-left: 20px;
+  align-content: center;
 }
-p{
-    padding: 20px;
+p {
+  padding: 20px;
 }
 .resume-button {
-    background-color:white; 
-    border: none; 
-    color:black; 
-    padding: 15px; 
-    text-align: center; 
-    text-decoration: none; /
-    display: inline-block; /
-    font-size: 16px; 
-    margin: 20px; 
-    cursor: pointer; 
-    border-radius: 12px;
-    
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  /display: inline-block;
+  /font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 12px;
 }
-a:hover{
-    cursor: pointer;
-    color:#ddd;
-    background-color: black;
+a:hover {
+  cursor: pointer;
+  color: #ddd;
+  background-color: black;
 }
-    
-.projects{
-    padding: 20px;
 
+.projects {
+  padding: 20px;
 }
-.project1{
-    position: relative;
-   border: 2px solid #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    box-sizing: border-box;
-    cursor: pointer;
-    }
-.project2{
-    position: relative;
-   border: 2px solid #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    box-sizing: border-box;
-    cursor: pointer;
 
+.project1,
+.project2,
+.project3,
+.project4 {
+  position: relative;
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.project3{
-    position: relative;
-    border: 2px solid #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    box-sizing: border-box;
-    cursor: pointer;
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover {
+  transform: scale(1.1); /* Pop-up effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
-.project4{
-    position: relative;
-    border: 2px solid #333;
-    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 2px;
-    cursor: pointer;
+
+h2 {
+  margin-top: 5px;
 }
-h2{
-    margin-top: 5px;
-    
+.skill {
+  padding: 20px;
 }
-.skill{
-    padding: 20px;
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 400px;
+  font-size: 20px;
 }
-ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px; 
-    width: 400px; 
-    font-size: 20px;
+.certificate {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.certificate{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-}
-.certificate{
-img {
-    width: 75%; 
-    height: auto; 
+.certificate {
+  img {
+    width: 75%;
+    height: auto;
     border: 2px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 15px;
     border: 2px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
 }
+.certificate img:hover {
+  transform: scale(1.1); /* Pop-up effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  border-color: #333; /* Optional: Highlight border color on hover */
 }
 
-.contact{
-    padding: 20px;
-    
+.contact {
+  padding: 20px;
 }
-.gmail{
-    img{
-    height:24px;
+.gmail {
+  img {
+    height: 24px;
     width: 24px;
     margin-right: 8px;
-   
-    }
-
+  }
 }
-.call{
-    img{
-    height:30px;
+.call {
+  img {
+    height: 30px;
     width: 30px;
-   
- }
-
+  }
 }
-.linkedin{
-    img{
-    height:30px;
+.linkedin {
+  img {
+    height: 30px;
     width: 30px;
-   
-    }
-
+  }
 }
-
-
-
-
-
-
