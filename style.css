@@ -58,7 +58,7 @@ a:hover {
 .project1,
 .project2,
 .project3,
-.project4 {
+.project4 .project5 .project6 {
   position: relative;
   border: 2px solid #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -71,7 +71,9 @@ a:hover {
 .project1:hover,
 .project2:hover,
 .project3:hover,
-.project4:hover {
+.project4:hover,
+.project5:hover,
+.project6:hover {
   transform: scale(1.1); /* Pop-up effect */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
