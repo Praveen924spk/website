@@ -2,155 +2,105 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praveen's portfolio</title>
-    <link rel="icon" href="WhatsApp Image 2024-07-20 at 19.44.04.jpeg">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praveen's Portfolio</title>
+    <link rel="icon" href="WhatsApp Image 2024-07-20 at 19.44.04.jpeg" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <div class="cn">
-        <img src="WhatsApp Image 2024-07-20 at 19.44.04.jpeg">
+    <header class="intro">
+        <img src="WhatsApp Image 2024-07-20 at 19.44.04.jpeg" alt="Praveen's Photo" />
         <div>
             <h1 class="name">Praveen Kumar S</h1>
-            <br>
-            <br>
-
-            <p>As an enthusiastic Electronics and Communication Engineering student, I am passionate about harnessing
-                technology to
-                drive innovation. My projects, ranging from smart systems to predictive analytics. I aim to apply my
-                technical skills and problem-solving approach to create impactful solutions in the
-                tech industry. Committed to continuous learning and collaboration, I seek to excel in every project I
-                undertake.</p>
-            <br>
-
-            <center>
-                <a href="/Users/jeevankumars/Desktop/Portfolio/PraveenKumar_s_resume.pdf" class="resume-button">
-                    Resume</a>
+            <p>
+                As an enthusiastic Electronics and Communication Engineering student, I am passionate about harnessing
+                technology to drive innovation.
+                My projects, ranging from smart systems to predictive analytics, reflect my technical skills and
+                problem-solving approach.
+                I strive to create impactful solutions in the tech industry and am committed to continuous learning and
+                collaboration.
+            </p>
+            <a href="PraveenKumar_s_resume.pdf" class="resume-button" download>Download Resume</a>
         </div>
+    </header>
 
+    <hr />
 
-
-    </div>
-    <br>
-    <hr>
-    <br>
-    <div class="projects">
+    <section class="projects">
         <h1>Projects</h1>
-        <br>
-        <br>
-        <div class="project1">
+        <div class="project-card">
             <h2>AWS Resource Inventory Automation</h2>
-            <p>Built a simple CLI tool in Bash to list AWS resources by service and region using AWS CLI.Helps users
-                quickly
-                check resources across multiple AWS services.</p>
-            <br>
-            <br>
-            <div class="project2">
-                <h2>Web Application Deployment on AWS</h2>
-                <p>Built a robust web application infrastructure on AWS featuring VPC, EC2, Application Load
-                    Balancer,Bastion
-                    Host, and Auto Scaling to achieve high availability,security, and dynamicscalability.</p>
-                <br>
-                <br>
-                <div class="project3">
-                    <h2>Personal Portfolio Development</h2>
-                    <p>Created a responsive portfolio website using HTML and CSS to feature my projects and skills.
-                        Hosted on Vercel for
-                        seamless online access.</p>
-                </div>
-                <br>
-                <br>
-                <div class="project4">
-                    <h2>Domestic Security System</h2>
-                    <p>Created a home security system that sends text and call alerts upon detecting intruders,
-                        utilizing a GSM module interfaced with Arduino Uno</p>
-                </div>
-                <br>
-                <br>
-                <div class="project5">
-                    <h2>Simon Says</h2>
-                    <p>Created a memory game, utilizing a Arduino Uno</p>
+            <p>Built a CLI tool using Bash and AWS CLI to list AWS resources by service and region.</p>
+        </div>
+        <div class="project-card">
+            <h2>Web Application Deployment on AWS</h2>
+            <p>Set up a secure, scalable AWS infrastructure with VPC, EC2, ALB, Bastion Host, and Auto Scaling.</p>
+        </div>
+        <div class="project-card">
+            <h2>Personal Portfolio Development</h2>
+            <p>Created a responsive portfolio website using HTML/CSS and hosted it on Vercel.</p>
+        </div>
+        <div class="project-card">
+            <h2>Domestic Security System</h2>
+            <p>Used Arduino Uno and GSM module to send alerts when intrusions are detected.</p>
+        </div>
+        <div class="project-card">
+            <h2>Simon Says Game</h2>
+            <p>Developed an interactive memory game using Arduino Uno.</p>
+        </div>
+        <div class="project-card">
+            <h2>Customized Work Display</h2>
+            <p>Built a task management monitor using Raspberry Pi 3B+ to enhance productivity.</p>
+        </div>
+    </section>
 
-                </div>
-                <br>
-                <br>
-                <div class="project6">
-                    <h2>Customized Work Display</h2>
-                    <p>Engineered a specialized monitor using Raspberry Pi 3B+ to efficiently organize personal
-                        tasks.This setup offers a
-                        functional and budget-friendly approach to improving productivity.</p>
+    <hr />
 
-                </div>
+    <section class="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>Linux</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
 
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="skill">
+    <hr />
 
-                <h1>Skills</h1>
-                <br>
-                <ul>
-                    <li>Linux</li>
-                    <li>C</li>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>MYSQL</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
+    <section class="certificates">
+        <h1>Certificates</h1>
+        <div class="certificate-gallery">
+            <img src="cybersecurity.jpeg" alt="Cybersecurity" />
+            <img src="nptel 2.jpeg" alt="NPTEL" />
+            <img src="idea hackathon.jpeg" alt="Hackathon" />
+            <img src="iee .jpeg" alt="IEEE" />
+            <img src="linux.jpeg" alt="Linux" />
+            <img src="ffc robot.jpeg" alt="Robot" />
+            <img src="nptel 1.jpeg" alt="NPTEL" />
+            <img src="workshop.jpeg" alt="Workshop" />
+            <img src="WhatsApp Image 2024-07-21 at 00.29.27.jpeg" alt="Extra Certificate" />
+        </div>
+    </section>
 
+    <hr />
 
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="certificate">
-                <h1>Certificates</h1>
-                <br>
-                <table>
-                    <tr>
-                        <td> <img src="cybersecurity.jpeg"> </td>
-                        <td> <img src="nptel 2.jpeg"> </td>
-                        <td> <img src="idea hackathon.jpeg"> </td>
-
-                    </tr>
-                    <tr>
-                        <td> <img src="iee .jpeg"></td>
-                        <td> <img src="linux.jpeg"></td>
-                        <td> <img src="ffc robot.jpeg"></td>
-                    </tr>
-                    <tr>
-                        <td> <img src="nptel 1.jpeg"></td>
-                        <td> <img src="workshop.jpeg"></td>
-                        <td> <img src="WhatsApp Image 2024-07-21 at 00.29.27.jpeg"></td>
-
-                    </tr>
-
-                </table>
-            </div>
-            <br>
-            <hr>
-            <br>
-            <div class="contact">
-                <h1>Contact</h1>
-                <br>
-                <a class="gmail" href="mailto:praveenkumar.s4038@gmail.com "><img src="gmail.jpeg"
-                        alt="Email Icon">praveenkumar.s4038@gmail.com</a>
-                <br>
-                <br>
-                <a class="call" href="tel:+91636948995"> <img src="call.jpeg" alt=" phone Icon">+91 6369487995</a>
-                <br>
-                <br>
-                <a class="linkedin" href="https://www.linkedin.com/in/s-praveen-kumar-"> <img src="linkedin.jpeg"
-                        alt=" linkedin Icon"> <span>Linkedin</span></a>
-            </div>
-
-
-
+    <section class="contact">
+        <h1>Contact</h1>
+        <div class="contact-links">
+            <a class="gmail" href="mailto:praveenkumar.s4038@gmail.com"><img src="gmail.jpeg"
+                    alt="Gmail Icon" />praveenkumar.s4038@gmail.com</a>
+            <a class="call" href="tel:+91636948995"><img src="call.jpeg" alt="Call Icon" />+91 6369487995</a>
+            <a class="linkedin" href="https://www.linkedin.com/in/s-praveen-kumar-"><img src="linkedin.jpeg"
+                    alt="LinkedIn Icon" />LinkedIn</a>
+        </div>
+    </section>
 
 </body>
 
