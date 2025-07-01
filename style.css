@@ -121,3 +121,88 @@ ul {
   width: 30px;
   margin-right: 8px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cn {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .cn img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .certificate table,
+  .certificate table tr,
+  .certificate table td {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .certificate img {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .projects,
+  .skill,
+  .certificate,
+  .contact {
+    padding: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .resume-button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cn img {
+    width: 150px;
+    height: 150px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  ul {
+    font-size: 18px;
+  }
+
+  .resume-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+
+  .projects div {
+    padding: 15px;
+  }
+
+  .gmail img,
+  .call img,
+  .linkedin img {
+    height: 24px;
+    width: 24px;
+  }
+}
