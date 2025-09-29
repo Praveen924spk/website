@@ -54,7 +54,8 @@ a:hover {
 .project3,
 .project4,
 .project5,
-.project6 {
+.project6,
+.project7 {
   position: relative;
   border: 2px solid #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -96,12 +97,20 @@ ul {
   flex-direction: column;
   gap: 10px;
 }
+/* Ensure consistent sizing of certificate images inside the table */
+.certificate table {
+  width: 100%;
+  table-layout: fixed;
+}
+.certificate td {
+  padding: 10px;
+}
 .certificate img {
-  width: 75%;
-  height: auto;
+  width: 100%;
+  height: 200px;
   border: 2px solid #ddd;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -141,17 +150,39 @@ ul {
     width: 100%;
   }
 
-  .certificate table,
-  .certificate table tr,
-  .certificate table td {
-    display: block;
-    width: 100%;
+  .certificate {
+    padding: 20px;
     text-align: center;
   }
 
+  .certificate h1 {
+    margin-bottom: 20px;
+  }
+
+  /* Grid layout for certificates */
+  .certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+
   .certificate img {
-    width: 90%;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+    padding: 10px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .certificate img {
+      max-width: 100%;
+      height: auto;
+    }
   }
 
   .projects,
